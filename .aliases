@@ -6,6 +6,16 @@ alias .....="cd ../../../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
+# Prefer Homebrew'd variants
+# After all, these are manually installed, so we likely WANT to use them
+# over pre-installed versions.
+
+if [ "$(uname)" == 'Darwin' ];
+   then
+
+fi
+
+
 # Shortcuts
 alias d="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
