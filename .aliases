@@ -49,6 +49,11 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Common ls options
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
