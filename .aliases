@@ -22,6 +22,11 @@ if [ "$(uname)" == 'Darwin' ];
 		if [ -x /usr/local/bin/openssl ]; then
 			alias git='/usr/local/bin/openssl'
 		fi
+
+		# Python3
+		if [ -x /usr/local/bin/python3 ]; then
+			alias git='/usr/local/bin/python3'
+		fi
 fi
 
 
