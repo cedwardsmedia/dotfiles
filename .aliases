@@ -13,6 +13,10 @@ alias -- -="cd -"
 if [ "$(uname)" == 'Darwin' ];
    then
 
+		# Git
+		if [ -x /usr/local/bin/git ]; then
+			alias git='/usr/local/bin/git'
+		fi
 fi
 
 
